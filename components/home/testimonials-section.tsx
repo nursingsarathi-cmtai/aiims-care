@@ -88,7 +88,7 @@ export default function TestimonialSection() {
                                     <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white/20">
                                         <img
                                             src={testimonials[current].image}
-                                            alt={testimonials[current].author}
+                                            alt={`${testimonials[current].author} - Nursing services Patna review - Professional nursing care Patna - Nursing Sarathi testimonial`}
                                             className="w-full h-full object-cover"
                                         />
                                     </div>

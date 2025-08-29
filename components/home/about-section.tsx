@@ -55,13 +55,13 @@ export default function AboutPage() {
                         >
                             <div>
                                 <h2 className="text-4xl md:text-5xl font-bold text-[#001055] mb-6">
-                                    About AIIMS Care
+                                    About Nursing Sarathi - Professional Nursing Services in Patna
                                 </h2>
                                 <div className="space-y-6 text-gray-700 leading-relaxed text-xl">
                                     <p>
-                                        At AIIMS Care, we believe that healthcare should be accessible, reliable, and compassionate.
+                                        At Nursing Sarathi, we believe that healthcare should be accessible, reliable, and compassionate.
                                         Our mission is to bridge the gap between patients and world-class medical expertise, bringing
-                                        the trusted standards of AIIMS to your fingertips.
+                                        professional nursing services in Patna to your fingertips.
                                     </p>
                                     <p>
                                         We are dedicated to providing comprehensive healthcare services — from initial consultations
@@ -124,26 +124,26 @@ export default function AboutPage() {
                             className="flex flex-col items-center justify-center space-y-4"
                         >
                             {/* Main Image */}
-                            <motion.img
-                                key={images[currentIndex]}
-                                src={images[currentIndex]}
-                                alt="Healthcare Main Image"
-                                className="rounded-xl shadow-lg object-cover w-140 h-140"
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                exit={{ opacity: 0 }}
-                                transition={{ duration: 1 }}
-                            />
+                                                         <motion.img
+                                 key={images[currentIndex]}
+                                 src={images[currentIndex]}
+                                 alt="Professional nursing services in Patna - Nursing Sarathi healthcare - Home care nursing Patna - Certified nurses Patna"
+                                 className="rounded-xl shadow-lg object-cover w-140 h-140"
+                                 initial={{ opacity: 0 }}
+                                 animate={{ opacity: 1 }}
+                                 exit={{ opacity: 0 }}
+                                 transition={{ duration: 1 }}
+                             />
 
                             {/* Thumbnails */}
                             <div className="flex items-center gap-2 mt-2">
                                 {images.slice(0, 2).map((img, idx) => (
-                                    <img
-                                        key={idx}
-                                        src={img}
-                                        alt={`Thumbnail ${idx}`}
-                                        className="w-20 h-20 object-cover rounded-lg shadow-sm"
-                                    />
+                                                                     <img
+                                     key={idx}
+                                     src={img}
+                                     alt={`Nursing services Patna thumbnail ${idx + 1} - Professional nursing care Patna - Nursing Sarathi`}
+                                     className="w-20 h-20 object-cover rounded-lg shadow-sm"
+                                 />
                                 ))}
 
                                 {images.length > 2 && (

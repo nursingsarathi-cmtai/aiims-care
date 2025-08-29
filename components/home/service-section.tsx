@@ -118,7 +118,7 @@ const ServiceCard = ({ title, description, image, isDark = false, index }: {
             <div className="absolute inset-0">
                 <img
                     src={image}
-                    alt={title}
+                    alt={`${title} - Nursing services in Patna - ${title.toLowerCase()} patna - Nursing Sarathi`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div
@@ -183,7 +183,7 @@ const ServicesPage = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                        Our Medical Services
+                        Nursing Services in Patna
                         {/* underline */}
                         <span className="absolute left-0 -bottom-4 w-1/2 h-[4.5px] bg-[#041558] rounded-2xl transition-all duration-500 group-hover:w-full"></span>
                     </motion.h2>

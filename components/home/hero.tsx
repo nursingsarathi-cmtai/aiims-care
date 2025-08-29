@@ -116,11 +116,11 @@ export default function HomePage() {
                     >
                         {/* Main nurse image */}
                         <div className="relative w-full h-80 lg:h-[22rem] rounded-xl overflow-hidden">
-                            <img
-                                src="/images/img.png"
-                                alt="Professional home healthcare nurse"
-                                className="h-full w-full object-cover rounded-xl shadow-sm"
-                            />
+                                                         <img
+                                 src="/images/img.png"
+                                 alt="Professional nursing services in Patna - Home healthcare nurse - Nursing Sarathi Patna"
+                                 className="h-full w-full object-cover rounded-xl shadow-sm"
+                             />
                         </div>
 
                         {/* Trust indicators below image */}

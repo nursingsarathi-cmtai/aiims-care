@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Sitemap -->
+  <sitemap>
+    <loc>https://nursingsarathi.in/sitemap.xml</loc>
+    <lastmod>2024-12-19</lastmod>
+  </sitemap>
+  
+  <!-- Service-specific Sitemaps -->
+  <sitemap>
+    <loc>https://nursingsarathi.in/sitemap-services.xml</loc>
+    <lastmod>2024-12-19</lastmod>
+  </sitemap>
+  
+  <!-- Location-specific Sitemaps -->
+  <sitemap>
+    <loc>https://nursingsarathi.in/sitemap-patna.xml</loc>
+    <lastmod>2024-12-19</lastmod>
+  </sitemap>
+  
+  <!-- Alternative Domain Sitemaps -->
+  <sitemap>
+    <loc>https://nursingsarathi.com/sitemap.xml</loc>
+    <lastmod>2024-12-19</lastmod>
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://nursingsarathi.xyz/sitemap.xml</loc>
+    <lastmod>2024-12-19</lastmod>
+  </sitemap>
+</sitemapindex>

@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Block admin and private areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /#about
+Allow: /#services
+Allow: /#why-choose-us
+Allow: /#booking
+Allow: /#faq
+Allow: /#care
+Allow: /#testimonials
+Allow: /#contact
+Allow: /#career
+
+# Sitemap locations for all domains
+Sitemap: https://nursingsarathi.in/sitemap.xml
+Sitemap: https://nursingsarathi.com/sitemap.xml
+Sitemap: https://nursingsarathi.xyz/sitemap.xml
+
+# Crawl delay (optional - be respectful to servers)
+Crawl-delay: 1
