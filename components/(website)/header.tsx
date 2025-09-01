@@ -52,8 +52,8 @@ const Header = () => {
                     >
                         <Link href="#home" className="flex items-center gap-2">
                             <img
-                                src="/images/logo.png"
-                                alt="AIIMS Care Logo"
+                                src="/images/logo1.png"
+                                alt="Nursing Sarathi Logo"
                                 className="w-30 h-15 object-contain rounded-lg"
                             />
                         </Link>
@@ -84,6 +84,12 @@ const Header = () => {
                         <Button
                             variant="outline"
                             className="border-[#001055]  bg-[#001055] text-white hover:bg-[#fff] hover:text-[#020652] transition inline-flex items-center gap-2"
+                            onClick={() => {
+                                const phoneNumber = "918766382620";
+                                const message = "Hello! I would like to talk to an expert about Nursing Sarathi services.";
+                                const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                                window.open(whatsappUrl, '_blank');
+                            }}
                         >
                             <img
                                 src="/images/vector.webp"
@@ -93,9 +99,11 @@ const Header = () => {
                             Talk to Expert
                         </Button>
 
-                        <Button className="bg-[#ffff] text-[#020652] border-1 border-[#020652] hover:text-[#fff] hover:bg-[#020652] hover:border-[#fff] transition focus:outline focus:outline-[#001055]">
-                            Book Care
-                        </Button>
+                        <Link href="#booking">
+                            <Button className="bg-[#ffff] text-[#020652] border-1 border-[#020652] hover:text-[#fff] hover:bg-[#020652] hover:border-[#fff] transition focus:outline focus:outline-[#001055]">
+                                Book Care
+                            </Button>
+                        </Link>
                     </div>
 
                     {/* Mobile menu button */}
@@ -136,9 +144,11 @@ const Header = () => {
                             >
                                 Talk to Expert
                             </Button>
-                            <Button className="w-full bg-[#001055] text-white hover:bg-[#020652] transition">
-                                Book Care
-                            </Button>
+                            <Link href="#booking" className="w-full">
+                                <Button className="w-full bg-[#001055] text-white hover:bg-[#020652] transition">
+                                    Book Care
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                 </motion.div>

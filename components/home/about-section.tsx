@@ -55,7 +55,7 @@ export default function AboutPage() {
                         >
                             <div>
                                 <h2 className="text-4xl md:text-5xl font-bold text-[#001055] mb-6">
-                                    About Nursing Sarathi - Professional Nursing Services in Patna
+                                    About Nursing Sarathi - Professional Nursing Services in India
                                 </h2>
                                 <div className="space-y-6 text-gray-700 leading-relaxed text-xl">
                                     <p>
@@ -70,7 +70,7 @@ export default function AboutPage() {
                                     </p>
                                     <p>
                                         Whether you need specialist consultations, lab tests, second opinions, or chronic care management,
-                                        AIIMS Care is here to guide you every step of the way. Our approach combines cutting-edge medical
+                                        Nursing Sarathi is here to guide you every step of the way. Our approach combines cutting-edge medical
                                         technology with the personal touch of experienced doctors and healthcare professionals.
                                     </p>
                                 </div>

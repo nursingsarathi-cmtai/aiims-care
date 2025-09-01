@@ -5,7 +5,7 @@ import { Star, Quote } from "lucide-react"
 
 const testimonials = [
     {
-        text: "AIIMS Care has been a blessing for our family. Their nurse, Sister Meera, provided exceptional care for my elderly mother during her recovery. The professionalism and compassion went beyond our expectations.",
+        text: "Nursing Sarathi has been a blessing for our family. Their nurse, Sister Meera, provided exceptional care for my elderly mother during her recovery. The professionalism and compassion went beyond our expectations.",
         rating: 5,
         author: "Priya Sharma",
         role: "Daughter of patient",

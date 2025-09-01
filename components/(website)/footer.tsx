@@ -44,7 +44,7 @@ const Footer = () => {
                     >
                         <div className="flex items-center gap-3">
                             <div>
-                                <h3 className="text-2xl text-[#fff] font-bold">AIIMS Care</h3>
+                                <h3 className="text-2xl text-[#fff] font-bold">Nursing Sarathi</h3>
                                 <p className="text-xl text-gray-400 opacity-90">Hospital-Grade Home Care</p>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ const Footer = () => {
                             <span className="text-[#fff]">Made with care for better health outcomes</span>
                         </div>
                         <div className="text-l opacity-90 text-[#fff]">
-                            © 2024 AIIMS Care. All rights reserved.
+                            © 2024 Nursing Sarathi. All rights reserved.
                         </div>
                         <div className="flex gap-8 text-l opacity-90">
                             <a href="#" className="hover:opacity-100  transition-opacity text-[#fff]">Privacy Policy</a>
