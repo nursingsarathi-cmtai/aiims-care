@@ -63,6 +63,15 @@ export default function HomePage() {
                                 <Button
                                     size="lg"
                                     className="bg-[#001055] hover:bg-[#001055]/90 text-white px-8 py-3 text-lg"
+                                    onClick={() => {
+                                        const bookingSection = document.getElementById('booking');
+                                        if (bookingSection) {
+                                            bookingSection.scrollIntoView({ 
+                                                behavior: 'smooth',
+                                                block: 'start'
+                                            });
+                                        }
+                                    }}
                                 >
                                     Book Home Care
                                     <ArrowRight className="ml-2 w-5 h-5" />
@@ -71,6 +80,12 @@ export default function HomePage() {
                                     variant="outline"
                                     size="lg"
                                     className="border-[#001055] text-[#001055] hover:bg-[#001055] hover:text-white px-8 py-3 text-lg bg-transparent"
+                                    onClick={() => {
+                                        const phoneNumber = "+919876543210"; // Replace with your actual WhatsApp number
+                                        const message = "Hello! I'm interested in your home care services. Can you please provide more information?";
+                                        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                                        window.open(whatsappUrl, '_blank');
+                                    }}
                                 >
                                     Talk to Our Experts
                                 </Button>
